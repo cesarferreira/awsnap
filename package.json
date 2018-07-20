@@ -18,8 +18,12 @@
   "main": "cli.js",
   "keywords": [],
   "dependencies": {
+    "canvas": "^1.6.11",
     "chalk": "^2.4.1",
+    "hex-rgb": "^3.0.0",
     "meow": "^5.0.0",
+    "merge-images": "^1.1.0",
+    "pngjs-image": "^0.11.7",
     "update-notifier": "^2.5.0"
   },
   "devDependencies": {

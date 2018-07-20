@@ -15,7 +15,7 @@ const self = module.exports = {
 		const params = input.subarray(1, input.length);
 
 		switch (command.toLowerCase()) {
-			case 'sample':
+			case 'generate':
 				SampleTask.init(params);
 				break;
 		
