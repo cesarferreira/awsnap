@@ -74,6 +74,7 @@ const self = module.exports = {
 						fs.unlinkSync(outputTempPath)
 						base64ToPNG(b64, outputPath)
 						console.log('Written to the file');
+						log(Chalk.green(`File ${Chalk.yellow(outputPath)} created!`));
 
 						// base64Img.img(b64, outputPath, 'o.png', function (err, filepath) { 	});
 					})
