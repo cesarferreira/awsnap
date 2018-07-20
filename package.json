@@ -1,0 +1,38 @@
+{
+  "name": "makeup",
+  "version": "0.0.0",
+  "description": "Generate beautiful screenshots",
+  "author": {
+    "name": "Cesar Ferreira",
+    "email": "cesar.manuel.ferreira@gmail.com",
+    "url": "http://cesarferreira.com"
+  },
+  "scripts": {
+    "start": "node example.js",
+    "lint": "eslint src/**/*",
+    "test": "xo"
+  },
+  "bin": {
+    "makeup": "cli.js"
+  },
+  "main": "cli.js",
+  "keywords": [],
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "meow": "^5.0.0",
+    "update-notifier": "^2.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.1.0",
+    "xo": "^0.21.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cesarferreira/makeup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cesarferreira/makeup/issues"
+  },
+  "homepage": "https://github.com/cesarferreira/makeup#readme",
+  "license": "MIT"
+}
