@@ -13,7 +13,7 @@
 </p>
 
 ## Intro
-I decided to open source this tool I've built to create [this](https://github.com/cesarferreira/facelift):
+I decided to open source the tool I've developed to create [this](https://github.com/cesarferreira/facelift):
 
 <p align="center">
   <img src="extras/facelift-ss.png" width="90%" />
