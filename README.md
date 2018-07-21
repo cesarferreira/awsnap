@@ -53,10 +53,20 @@ Here you can see the `ss.png` :
 
 the output is:
 
+> awsnap generate 2000 800 d3d3d3 extras/ss.png extras/output.png 1500 700
 <p align="center">
   <img src="extras/output.png" width="100%" />
 </p>
 
+> awsnap generate 2000 800 afc81c extras/ss.png extras/output2.png 1500 700
+<p align="center">
+  <img src="extras/output2.png" width="100%" />
+</p>
+
+> awsnap generate 2000 800 d3d3d3 extras/ss.png extras/output3.png 1500 700
+<p align="center">
+  <img src="extras/output3.png" width="100%" />
+</p>
 
 ## Created by
 [Cesar Ferreira](https://cesarferreira.com)
