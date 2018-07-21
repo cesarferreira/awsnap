@@ -9,8 +9,8 @@ const PNGImage = require('pngjs-image');
 const mergeImages = require('merge-images');
 const hexRgb = require('hex-rgb');
 const Canvas = require('canvas');
-var path = require('path');
-
+const path = require('path');
+const easyImage = require('easyimage')
 
 function base64ToPNG(data, destination) {
 	data = data.replace(/^data:image\/png;base64,/, '');
@@ -49,6 +49,10 @@ const self = module.exports = {
 		const hex = input[2]
 		const highlightImage = input[3]
 		const outputPath = input[4]
+		
+		const cropWidth = input[5]
+		const cropHeight = input[6]
+
 		const outputTempPath = '.tmp-img.png'
 
 		var image = createImage(width, height, hexRgb('#' + hex))
@@ -73,10 +77,22 @@ const self = module.exports = {
 					.then(b64 => {
 						fs.unlinkSync(outputTempPath)
 						base64ToPNG(b64, outputPath)
-						console.log('Written to the file');
+						
 						log(Chalk.green(`File ${Chalk.yellow(outputPath)} created!`));
 
-						// base64Img.img(b64, outputPath, 'o.png', function (err, filepath) { 	});
+						if (cropWidth != undefined && cropHeight != undefined) {
+
+							easyImage.crop({
+								src: outputPath,
+								dst: outputPath,
+								cropWidth: cropWidth,
+								cropHeight: cropHeight
+							})
+							.then(result => {
+								log(result)
+							})
+						}
+
 					})
 			});
 

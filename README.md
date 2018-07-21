@@ -12,7 +12,12 @@
 ## Install
 
 ```sh
-yarn add makeup
+brew install pkg-config cairo libpng jpeg giflib imagemagick
+```
+
+
+```sh
+npm install -g
 ```
 
 ## Usage
@@ -22,12 +27,9 @@ Usage
 
    $ makeup <command> <params>
 
-   $ makeup sample <param>             # Uses the <PARAM>
-   
  Examples
+   $ makeup generate 2000 800 f7d794 tmp/ss.png tmp/output.png 1500 700    
 
-   $ makeup sample TEST                # Uses the TEST
-   $ makeup sample YOLO                # Uses the YOLO
 ```
 
 ## Created by

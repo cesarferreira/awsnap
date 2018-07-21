@@ -20,6 +20,7 @@
   "dependencies": {
     "canvas": "^1.6.11",
     "chalk": "^2.4.1",
+    "easyimage": "^3.1.0",
     "hex-rgb": "^3.0.0",
     "meow": "^5.0.0",
     "merge-images": "^1.1.0",
