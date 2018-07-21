@@ -1,5 +1,5 @@
 # awsnap
-> Generate beautiful screenshots
+> 🏄  Generate beautiful screenshots
 
 <p align="center">
   <img src="extras/output.png" width="100%" />
