@@ -11,7 +11,7 @@
   <a href="https://github.com/cesarferreira/awsnap/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
 </p>
 
-## Intro
+
 I decided to open source the tool I've developed to create [this](https://github.com/cesarferreira/facelift):
 
 <p align="center">
