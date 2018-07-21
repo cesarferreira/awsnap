@@ -11,18 +11,18 @@ updateNotifier({ pkg }).notify();
 const cli = meow(`
 Usage
 
-   $ makeup <command> <params>
+   $ awsnap <command> <params>
 
-   $ makeup sample <param>             # Uses the <PARAM>
-   $ makeup other <param>              # Other the <PARAM>
-   $ makeup another <param>            # Another the <PARAM>
+   $ awsnap sample <param>             # Uses the <PARAM>
+   $ awsnap other <param>              # Other the <PARAM>
+   $ awsnap another <param>            # Another the <PARAM>
    
  Examples
 
-   $ makeup sample TEST                # Uses the TEST
-   $ makeup sample YOLO                # Uses the YOLO
-   $ makeup other YOLO                 # Uses the YOLO
-   $ makeup another YOLO               # Uses the YOLO
+   $ awsnap sample TEST                # Uses the TEST
+   $ awsnap sample YOLO                # Uses the YOLO
+   $ awsnap other YOLO                 # Uses the YOLO
+   $ awsnap another YOLO               # Uses the YOLO
 `,
   {
     alias: {

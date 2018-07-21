@@ -1,5 +1,5 @@
 {
-  "name": "makeup",
+  "name": "awsnap",
   "version": "0.0.0",
   "description": "Generate beautiful screenshots",
   "author": {
@@ -13,7 +13,7 @@
     "test": "xo"
   },
   "bin": {
-    "makeup": "cli.js"
+    "awsnap": "cli.js"
   },
   "main": "cli.js",
   "keywords": [],
@@ -33,11 +33,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cesarferreira/makeup.git"
+    "url": "https://github.com/cesarferreira/awsnap.git"
   },
   "bugs": {
-    "url": "https://github.com/cesarferreira/makeup/issues"
+    "url": "https://github.com/cesarferreira/awsnap/issues"
   },
-  "homepage": "https://github.com/cesarferreira/makeup#readme",
+  "homepage": "https://github.com/cesarferreira/awsnap#readme",
   "license": "MIT"
 }
