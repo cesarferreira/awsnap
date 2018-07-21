@@ -14,7 +14,6 @@ const easyImage = require('easyimage')
 
 function base64ToPNG(data, destination) {
 	data = data.replace(/^data:image\/png;base64,/, '');
-
 	fs.writeFile(path.resolve(process.cwd(), destination), data, 'base64', function (err) {
 		if (err) throw err;
 	});
@@ -88,9 +87,9 @@ const self = module.exports = {
 								cropWidth: cropWidth,
 								cropHeight: cropHeight
 							})
-							.then(result => {
-								log(result)
-							})
+							// .then(result => {
+							// 	log(result)
+							// })
 						}
 
 					})
