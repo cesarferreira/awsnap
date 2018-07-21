@@ -6,7 +6,6 @@
 </p>
 
 <p align="center">
-  <a href="https://travis-ci.org/cesarferreira/awsnap"><img src="https://travis-ci.org/cesarferreira/awsnap.svg?branch=master" alt="Build Status"></a>
   <a href="https://www.npmjs.com/package/awsnap"><img src="https://img.shields.io/npm/dt/awsnap.svg" alt="npm"></a>
   <a href="https://www.npmjs.com/package/awsnap"><img src="https://img.shields.io/npm/v/awsnap.svg" alt="npm"></a>
   <a href="https://github.com/cesarferreira/awsnap/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
@@ -58,7 +57,7 @@ the output is:
   <img src="extras/output.png" width="100%" />
 </p>
 
-> awsnap generate 2000 800 afc81c extras/ss.png extras/output2.png 1500 700
+> awsnap generate 2000 800 718B71 extras/ss.png extras/output2.png 1500 700
 <p align="center">
   <img src="extras/output2.png" width="100%" />
 </p>
