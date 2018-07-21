@@ -12,6 +12,13 @@
   <a href="https://github.com/cesarferreira/awsnap/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
 </p>
 
+## Intro
+I decided to open source this tool I've built to create [this](https://github.com/cesarferreira/facelift):
+
+<p align="center">
+  <img src="extras/facelift-ss.png" width="90%" />
+</p>
+
 ## Install
 
 ```sh
@@ -33,10 +40,23 @@ Usage
 
 ```
 Examples
-   $ awsnap generate 2000 800 f7d794 tmp/ss.png tmp/output.png 1500 700    
+   $ awsnap generate 2000 800 f7d794 extras/ss.png extras/output.png 1500 700    
 ```
 
-this will generate an image with the size of `2000 x 800`, color `#f7d794`, screenshot at `tmp/ss.png` will output into `tmp/output.png` and optionally will crop the image to be `1500 x 700`
+this will generate an image with the size of `2000 x 800`, color `#f7d794`, screenshot at `extras/ss.png` will output into `extras/output.png` and optionally will crop the image to be `1500 x 700`
+
+Here you can see the `ss.png` :
+
+<p align="center">
+  <img src="extras/ss.png" width="100%" />
+</p>
+
+the output is:
+
+<p align="center">
+  <img src="extras/output.png" width="100%" />
+</p>
+
 
 ## Created by
 [Cesar Ferreira](https://cesarferreira.com)
